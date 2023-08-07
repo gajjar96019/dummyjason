@@ -1,0 +1,565 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.menu a {
+  text-decoration-line: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0;
+  padding-right: 15px;
+}
+
+.menu {
+  background-color: #232F3E;
+}
+
+/****** Header ******/
+
+.nav {
+  background-color: #131921;
+}
+
+.back {
+  width: 100%;
+}
+
+.address p {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.address span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.address {
+  position: relative;
+}
+
+.address h5 {
+  position: absolute;
+  color: #fff;
+  left: -20px;
+  bottom: 0;
+}
+
+/****** Header ******/
+
+/****** Left-area ******/
+
+.left-area h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.left-area input {
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+}
+
+.delivery span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.delivery span:hover {
+  color: orangered;
+}
+
+.category {
+  position: relative;
+}
+
+.category .icon {
+  position: absolute;
+  right: 0;
+}
+
+.category p {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.category p:hover {
+  color: orangered;
+}
+
+.rating {
+  color: orange;
+}
+
+.rating_1 span {
+  font-size: 18px;
+  color: orange;
+  cursor: pointer;
+}
+
+.rating_1 p:hover {
+  color: orangered;
+}
+
+.rating_1 p {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.brand span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.brand span:hover {
+  color: orangered;
+}
+
+.price span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.price span:hover {
+  color: orangered;
+}
+
+.mi_ma input {
+  width: 60px;
+  height: 27px;
+  margin: 2px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.mi_ma .go {
+  width: 32px;
+  border-radius: 7px;
+  background-color: #fff;
+  margin-left: 7px;
+  border: 1px solid gray;
+}
+
+.deals p {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.deals p:hover {
+  color: orangered;
+}
+
+.brands span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.brands span:hover {
+  color: orangered;
+}
+
+.Cellular span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Cellular span:hover {
+  color: orangered;
+}
+
+.Pay span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Pay span:hover {
+  color: orangered;
+}
+
+.Item span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Item span:hover {
+  color: orangered;
+}
+
+.Screen span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Screen span:hover {
+  color: orangered;
+}
+
+.Processor span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Processor span:hover {
+  color: orangered;
+}
+
+.Battery span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Battery span:hover {
+  color: orangered;
+}
+
+.Form span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Form span:hover {
+  color: orangered;
+}
+
+.Sim span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Sim span:hover {
+  color: orangered;
+}
+
+.Mobile span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Mobile span:hover {
+  color: orangered;
+}
+
+.Display span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Display span:hover {
+  color: orangered;
+}
+
+.Included_Components span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Included_Components span:hover {
+  color: orangered;
+}
+
+.Shooting_Modes span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Shooting_Modes span:hover {
+  color: orangered;
+}
+
+.Front_Photo span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Front_Photo span:hover {
+  color: orangered;
+}
+
+.Biometric_Security span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Biometric_Security span:hover {
+  color: orangered;
+}
+
+.Refresh_Rate_Photo span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Refresh_Rate_Photo span:hover {
+  color: orangered;
+}
+
+.Human_Interfrace span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Human_Interfrace span:hover {
+  color: orangered;
+}
+
+.Primary_Camera span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Primary_Camera span:hover {
+  color: orangered;
+}
+
+.SIM_Card span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.SIM_Card span:hover {
+  color: orangered;
+}
+
+.Cell_Phone span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Cell_Phone span:hover {
+  color: orangered;
+}
+
+.Phone_Resolution span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Phone_Resolution span:hover {
+  color: orangered;
+}
+
+.Device_Features span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Device_Features span:hover {
+  color: orangered;
+}
+
+.Video_Capture span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Video_Capture span:hover {
+  color: orangered;
+}
+
+.Lens span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Lens span:hover {
+  color: orangered;
+}
+
+.Cellular_Phone span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Cellular_Phone span:hover {
+  color: orangered;
+}
+
+.Battery_Average_Life span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Battery_Average_Life span:hover {
+  color: orangered;
+}
+
+.Cellular_Technology span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Cellular_Technology span:hover {
+  color: orangered;
+}
+
+.Installed_RAM_Size span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Installed_RAM_Size span:hover {
+  color: orangered;
+}
+
+.Availability span {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Availability span:hover {
+  color: orangered;
+}
+
+
+/****** Left-area ******/
+
+.img img {
+  border-radius: 5px 0 0 5px;
+  background-color: #F7F7F7;
+}
+
+.spn {
+  font-size: 11px;
+}
+
+.icn {
+  transform: rotate(180deg);
+  color: #6C757D;
+}
+
+.extra {
+  font-size: 14px;
+}
+
+.home a {
+  text-decoration: none;
+  color: #000;
+}
+
+.home .description h5:hover {
+  color: orangered;
+}
+
+/* New Component */
+
+.search input {
+  width: 400px;
+  height: 35px;
+  padding-left: 15px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search button {
+  width: 40px;
+  height: 35px;
+  border-radius: 0 5px 5px 0;
+  background-color: #F3A847;
+}
+
+.menu_2 h5 {
+  font-size: 16px;
+}
+
+.menu_2 li {
+  font-size: 12px;
+  color: #000;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.menu_2 li:hover {
+  text-decoration: underline 2px solid orangered;
+  text-underline-offset: 5px;
+}
+
+.second a {
+  color: #000;
+  text-decoration: none;
+}
+
+.second p {
+  font-size: 12px;
+}
+
+.images {
+  width: 50px;
+}
+
+.images img {
+  border: 1px solid rgb(162, 153, 153);
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.texts p {
+  color: #007185;
+}
+
+.strike p,
+.strike strike {
+  font-size: 12px;
+}
+
+.cart_page {
+  position: relative;
+}
+
+.cart_page p {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #DC3545;
+  width: 18px;
+  text-align: center;
+  border-radius: 100%;
+}
